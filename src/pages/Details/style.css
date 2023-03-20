@@ -1,0 +1,116 @@
+.skill{
+    background-color: var(--purple) !important;
+    border-radius: 7px;
+    margin-left: 4px;
+    margin-right: 4px;
+    margin-bottom: 4px;
+    padding: 2px 10px 2px 10px;
+}
+
+.header{
+    color: var(--purple) !important;
+    font-style: italic;
+}
+
+.text-light{
+    color:var(--white) !important;
+}
+.text-dark{
+    color:var(--black) !important;
+}
+
+.dark-body {
+    background-color: var(--background) !important;
+}
+
+.light-body {
+    background-color: var(--foreground) !important;
+}
+
+.nav-lght-link {
+    text-decoration: none;
+    color: var(--white);
+    cursor: pointer;
+
+}
+
+.nav-lght-link:hover {
+    color: var(--cursorColor);
+}
+
+.nav-dark-link {
+    text-decoration: none;
+    color: var(--black);
+    cursor: pointer;
+
+}
+
+.nav-dark-link:hover {
+    color: var(--black);
+}
+
+
+
+.project-div {
+    font-family: 'JetBrains Mono', monospace !important;
+    border: 1px solid var(--purple) !important;
+    transition: all .5s ease-in-out;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.project-div:hover {
+    box-shadow: 0px 0px 50px -19px rgba(136, 23, 152,1) !important;
+    transform: scale(1.1);
+}
+
+
+.project-light-title {
+    color: var(--purple) !important;
+}
+
+.project-light-description {
+    color: var(--white);
+    font-size: 12px;
+}
+
+.project-dark-description {
+    color: var(--black);
+    font-size: 12px;
+}
+
+.project-tag {
+    background-color: var(--purple);
+    color: var(--white) !important;
+    font-size: 10px;
+    border-radius: 5px;
+    padding-left: 4px;
+    padding-right: 4px;
+}
+
+.project-status-dark {
+    color: var(--black) !important;
+    font-size: 12px;
+}
+.project-status-light {
+    color: var(--white) !important;
+    font-size: 12px;
+}
+
+
+.project-link {
+    color: var(--purple) !important;
+    text-decoration: none !important;
+}
+
+.social-link-dark{
+    cursor: pointer;
+    color: var(--white) !important;
+    text-decoration: none !important;
+}
+
+.social-link-light{
+    cursor: pointer;
+    color: var(--black) !important;
+    text-decoration: none !important;
+}
